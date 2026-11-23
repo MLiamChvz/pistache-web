@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173D2D">
+  <meta name="description" content="Conoce PISTACHÉ: un proyecto de packaging reutilizable para pistachos con compartimiento para cáscaras, envases apilables y diseño consciente.">
+  <meta name="color-scheme" content="light">
+  <title>PISTACHÉ | Disfruta. Separa. Reutiliza.</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="inicio">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="PISTACHÉ, ir al inicio">
+        <img src="assets/isotipo.webp" width="59" height="46" alt="" class="brand-symbol">
+        <span class="brand-name">PISTACHÉ<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="#concepto">Concepto</a>
+        <a href="#funciona">Cómo funciona</a>
+        <a href="#empaques">Packaging</a>
+        <a href="#reutilizacion">Segunda vida</a>
+      </nav>
+      <a class="header-cta" href="#empaques">Explorar diseño <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-controls="mobileMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileMenu" aria-label="Navegación móvil" hidden>
+      <a href="#concepto">Concepto</a>
+      <a href="#funciona">Cómo funciona</a>
+      <a href="#empaques">Packaging</a>
+      <a href="#reutilizacion">Segunda vida</a>
+      <a href="#informacion">Información</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-leaf hero-leaf-one" aria-hidden="true"></div>
+      <div class="hero-leaf hero-leaf-two" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <span class="eyebrow eyebrow-gold"><span class="eyebrow-line"></span> DISEÑO CON PROPÓSITO</span>
+          <h1 id="hero-title">Disfruta.<br><em>Separa.</em><br>Reutiliza<span class="hero-period">.</span></h1>
+          <p>El sabor de los pistachos merece una experiencia mejor. Un bowl con espacio para las cáscaras, una identidad natural y una segunda vida después del último bocado.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#funciona">Descubre cómo funciona <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-text-light" href="#empaques">Ver los tres envases <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-features" aria-label="Características principales">
+            <span><span class="feature-small-icon" aria-hidden="true">✓</span> Compartimiento central</span>
+            <span><span class="feature-small-icon" aria-hidden="true">✓</span> Envase reutilizable</span>
+          </div>
+        </div>
+        <div class="hero-showcase">
+          <div class="hero-image-frame">
+            <div class="showcase-caption-top"><span class="micro-dot"></span> PROTOTIPO 3D / 2026</div>
+            <img class="hero-product" src="assets/primario.webp" alt="Render 3D del packaging primario PISTACHÉ: bowl verde y crema abierto, compartimiento central y tapa clara con el logotipo" fetchpriority="high" width="1250" height="865">
+            <span class="hero-image-corner" aria-hidden="true">01</span>
+          </div>
+          <div class="hero-object-label"><span class="fine-line" aria-hidden="true"></span> ENVASE PRIMARIO · 15 × 15 × 4,5 CM</div>
+        </div>
+      </div>
+      <div class="hero-bottom-line"><div class="container hero-bottom-inner"><span>PISTACHÉ / DISEÑO TRIDIMENSIONAL</span><span>UNA IDEA, MUCHAS POSIBILIDADES</span><a href="#concepto" aria-label="Desplazarse hacia la siguiente sección">DESLIZA PARA EXPLORAR <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+
+    <section class="intro-section section-space" id="concepto" aria-labelledby="concept-title">
+      <div class="container intro-grid">
+        <div class="section-heading reveal">
+          <span class="eyebrow">01 / NUESTRO CONCEPTO</span>
+          <h2 id="concept-title">Un diseño pensado <em>hasta el último</em> pistacho.</h2>
+        </div>
+        <div class="intro-text reveal">
+          <p>PISTACHÉ nace de una situación cotidiana: disfrutar pistachos y no tener dónde dejar sus cáscaras. Convertimos ese pequeño problema en una oportunidad de diseño.</p>
+          <p>El resultado es un sistema de packaging que busca unir <strong>comodidad, organización y reutilización</strong>, inspirado en la forma y los colores del propio fruto.</p>
+          <div class="concept-signature"><span class="signature-mark" aria-hidden="true">✳</span><span>Natural en su inspiración.<br><strong>Funcional en cada detalle.</strong></span></div>
+        </div>
+      </div>
+      <div class="container pillars-grid" aria-label="Valores de diseño">
+        <div class="pillar reveal"><span class="pillar-n">01</span><div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M11 37c4 14 38 14 42 0M10 31c0 9 44 9 44 0M12 31h40M32 19v13M22 19c0-7 20-7 20 0v13"/></svg></div><h3>Funcionalidad</h3><p>Un recipiente que facilita el consumo y mantiene las cáscaras separadas.</p></div>
+        <div class="pillar reveal"><span class="pillar-n">02</span><div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M12 37 32 47l20-10M12 27l20 10 20-10-20-10-20 10ZM12 47l20 10 20-10"/></svg></div><h3>Organización</h3><p>Tres niveles de envase para exhibir, agrupar y transportar el producto.</p></div>
+        <div class="pillar reveal"><span class="pillar-n">03</span><div class="pillar-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M52 24a22 22 0 0 0-38-7l-6 7M8 11v13h13M12 40a22 22 0 0 0 38 7l6-7m0 13V40H43"/></svg></div><h3>Segunda vida</h3><p>Un bowl diseñado para seguir siendo útil cuando se terminan los pistachos.</p></div>
+      </div>
+    </section>
+
+    <section class="how-section section-space" id="funciona" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-title-row reveal"><div><span class="eyebrow">02 / LA EXPERIENCIA</span><h2 id="how-title">Tres gestos. <em>Una mejor experiencia.</em></h2></div><p>Un compartimiento interior transforma la manera de disfrutar tu snack favorito.</p></div>
+        <div class="steps-grid">
+          <article class="step-card reveal">
+            <span class="step-number">01</span>
+            <div class="step-art" aria-hidden="true"><svg viewBox="0 0 170 140"><ellipse cx="86" cy="102" rx="51" ry="15" fill="#DBD1B2"/><path d="M35 70h103l-10 33c-5 16-78 16-83 0L35 70Z" fill="#F3E2BD" stroke="#31523B" stroke-width="2"/><ellipse cx="86" cy="71" rx="52" ry="17" fill="#F6E9D1" stroke="#31523B" stroke-width="2"/><ellipse cx="86" cy="71" rx="39" ry="11" fill="#D2BE93"/><path d="M51 27c14-19 69-19 82 0" stroke="#AE8758" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M132 23l2 10-10-2" fill="none" stroke="#AE8758" stroke-width="3" stroke-linecap="round"/></svg></div>
+            <h3>Abre.</h3><p>Retira la tapa clara y accede al contenido del bowl.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">02</span>
+            <div class="step-art" aria-hidden="true"><svg viewBox="0 0 170 140"><ellipse cx="85" cy="104" rx="55" ry="17" fill="#DBD1B2"/><path d="M29 66h112l-14 38c-10 11-74 11-84 0L29 66Z" fill="#F2E2C5" stroke="#31523B" stroke-width="2"/><ellipse cx="85" cy="65" rx="55" ry="17" fill="#F0E3C8" stroke="#31523B" stroke-width="2"/><ellipse cx="85" cy="65" rx="18" ry="13" fill="#F8EDD9" stroke="#31523B" stroke-width="2"/><path d="M38 64c0-6 9-7 12-2s7 9 12 2M108 68c3-9 17-9 21-1" stroke="#78933C" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M84 15v24m-7-7 7 7 7-7" stroke="#AE8758" stroke-width="3" stroke-linecap="round" fill="none"/></svg></div>
+            <h3>Separa.</h3><p>Coloca las cáscaras en el compartimiento central mientras disfrutas los pistachos.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-number">03</span>
+            <div class="step-art" aria-hidden="true"><svg viewBox="0 0 170 140"><ellipse cx="86" cy="104" rx="56" ry="15" fill="#DBD1B2"/><path d="M29 70h114l-13 33c-8 15-80 15-89 0L29 70Z" fill="#F0E0BC" stroke="#31523B" stroke-width="2"/><ellipse cx="86" cy="70" rx="57" ry="14" fill="#F8ECD5" stroke="#31523B" stroke-width="2"/><path d="M68 72 58 17m15 53 4-51m5 51 14-52" stroke="#BB945F" stroke-width="5" stroke-linecap="round"/><path d="M112 65v-21m-6 6h12" stroke="#31523B" stroke-width="3" stroke-linecap="round"/><ellipse cx="56" cy="72" rx="8" ry="4" fill="#CFAD63"/><ellipse cx="124" cy="73" rx="6" ry="4" fill="#CFAD63"/></svg></div>
+            <h3>Reutiliza.</h3><p>Vacía, retira el material interior y usa el recipiente como organizador.</p>
+          </article>
+        </div>
+        <p class="how-footnote reveal">Diseño conceptual: la bolsa alimentaria interior se retira antes de usar el bowl como organizador.</p>
+      </div>
+    </section>
+
+    <section class="system-section section-space" id="empaques" aria-labelledby="system-title">
+      <div class="container">
+        <div class="section-title-row reveal"><div><span class="eyebrow">03 / NUESTRO SISTEMA</span><h2 id="system-title">Diseñado para <em>cada momento.</em></h2></div><p>Tres niveles conectados por una misma identidad. De la experiencia individual a la distribución.</p></div>
+        <div class="packaging-grid">
+          <article class="pack-card reveal">
+            <div class="pack-image"><img src="assets/primario.webp" alt="Mockup 3D del bowl primario PISTACHÉ con tapa retirada y depósito central" width="1250" height="865"><span class="pack-index">01 / PRIMARIO</span></div>
+            <div class="pack-info"><div class="pack-meta">CONSUMO INDIVIDUAL <span>15 × 15 × 4,5 cm</span></div><h3>Bowl reutilizable</h3><p>Recipiente bajo con tapa crema, diseño verde y un depósito independiente para las cáscaras.</p><button class="pack-details" type="button" data-model="primario" aria-label="Ver detalle ampliado del packaging primario">Ver detalle del modelo <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="pack-card reveal">
+            <div class="pack-image"><img src="assets/secundario.webp" alt="Dos variantes del packaging secundario con forma de cáscara de pistacho y seis bowls apilados" width="1400" height="861"><span class="pack-index">02 / SECUNDARIO</span></div>
+            <div class="pack-info"><div class="pack-meta">PRESENTACIÓN AGRUPADA <span>18 × 18 × 30 cm</span></div><h3>Seis en una cáscara</h3><p>Una torre vertical de seis bowls dentro de una estructura de cartón inspirada en el pistacho abierto.</p><button class="pack-details" type="button" data-model="secundario" aria-label="Ver detalle ampliado del packaging secundario">Ver detalle del modelo <span aria-hidden="true">↗</span></button></div>
+          </article>
+          <article class="pack-card reveal">
+            <div class="pack-image"><img src="assets/terciario.webp" alt="Mockup 3D de caja terciaria abierta y cerrada con recipientes PISTACHÉ, seis visibles en la capa superior" width="1400" height="704"><span class="pack-index">03 / TERCIARIO</span></div>
+            <div class="pack-info"><div class="pack-meta">TRANSPORTE Y ALMACENAJE <span>48 × 33 × 12 cm</span></div><h3>Protección inteligente</h3><p>Caja de cartón corrugado para doce primarios en dos niveles de seis, sin introducir los secundarios.</p><button class="pack-details" type="button" data-model="terciario" aria-label="Ver detalle ampliado del packaging terciario">Ver detalle del modelo <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+        <div class="system-note reveal"><span class="note-icon" aria-hidden="true">i</span><p>Las dimensiones y sistemas constructivos son propuestas de diseño académico. Su capacidad y resistencia se validarán mediante prototipos físicos.</p></div>
+      </div>
+    </section>
+
+    <section class="second-life-section section-space" id="reutilizacion" aria-labelledby="second-life-title">
+      <div class="container second-life-grid">
+        <div class="second-life-copy reveal">
+          <span class="eyebrow eyebrow-gold">04 / MÁS ALLÁ DEL CONSUMO</span>
+          <h2 id="second-life-title">El último pistacho <em>no es el final.</em></h2>
+          <p>Cuando el snack se termina, el recipiente puede seguir contigo. El compartimiento que antes recibía las cáscaras se convierte en un espacio para organizar tus objetos cotidianos.</p>
+          <ol class="second-life-list">
+            <li><span>01</span> Retira la bolsa interior y vacía las cáscaras.</li>
+            <li><span>02</span> Limpia la estructura en seco.</li>
+            <li><span>03</span> Organiza lápices, clips o accesorios pequeños.</li>
+          </ol>
+          <a class="btn btn-outline-light" href="#informacion">Conoce los materiales <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="second-life-visual reveal" aria-label="Ilustración conceptual del bowl convertido en organizador de escritorio">
+          <div class="life-annotation life-top">UNA SEGUNDA VIDA <span aria-hidden="true">↗</span></div>
+          <svg class="organizer-illustration" viewBox="0 0 640 480" role="img" aria-label="Bowl de tonos crema y verde convertido en organizador con lápices y clips">
+            <defs><linearGradient id="cup" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#FAE8C8"/><stop offset="1" stop-color="#DEC29A"/></linearGradient><linearGradient id="base" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#F3DDB8"/><stop offset="1" stop-color="#D7B985"/></linearGradient></defs>
+            <ellipse cx="313" cy="398" rx="238" ry="34" fill="#0A2419" opacity=".15"/>
+            <path d="M236 185 212 63" stroke="#A77B49" stroke-width="19" stroke-linecap="round"/><path d="M240 178 248 47" stroke="#D6A45E" stroke-width="16" stroke-linecap="round"/><path d="M263 184 293 59" stroke="#7F9C54" stroke-width="18" stroke-linecap="round"/><path d="M282 185 341 76" stroke="#C7A47D" stroke-width="15" stroke-linecap="round"/>
+            <path d="M202 66 211 48 223 61 216 82Z" fill="#263B2B"/><path d="M240 48 246 24 255 46Z" fill="#E3BF88"/><path d="M290 61 308 39 312 68Z" fill="#E3BF88"/>
+            <path d="M203 202h162l-19 106c-10 22-116 22-126 0Z" fill="url(#cup)" stroke="#C39D6D" stroke-width="4"/><ellipse cx="284" cy="198" rx="82" ry="26" fill="#F5E6CA" stroke="#C39D6D" stroke-width="4"/><ellipse cx="284" cy="197" rx="64" ry="16" fill="#D3BC91"/>
+            <path d="M90 224c12 76 35 128 73 148 47 27 278 24 325-2 37-21 58-77 65-145" fill="url(#base)" stroke="#BE965A" stroke-width="4"/>
+            <path d="M108 272c46 22 95 41 148 45s94-32 142-40c51-7 96 8 137-4l-14 63c-50 35-116 26-175 36-79 13-162 11-211-16-12-18-22-55-27-84Z" fill="#173D2D"/>
+            <path d="M113 283c66 0 87 83 148 91-56 1-91-2-126-18-11-17-18-43-22-73Z" fill="#8CA857"/><path d="M339 289c47-16 87-18 112-2s49 20 78-10l-13 58c-48 28-100 30-167 32-40 1-60 7-91 6 34-20 51-73 81-84Z" fill="#A2BD72"/>
+            <ellipse cx="322" cy="225" rx="235" ry="65" fill="#F4E5C9" stroke="#BE965A" stroke-width="5"/>
+            <ellipse cx="322" cy="224" rx="214" ry="49" fill="#E4D0AA"/>
+            <g fill="none" stroke="#BA995F" stroke-width="7"><path d="M128 222c17-25 32-12 39 0s22 17 33-1"/><path d="M435 222c13-32 34-21 36 0s25 17 32-3"/></g>
+            <ellipse cx="286" cy="221" rx="94" ry="32" fill="#F8E9CB" stroke="#B48B58" stroke-width="6"/>
+            <ellipse cx="286" cy="216" rx="77" ry="21" fill="#DAC29C"/>
+            <g fill="none" stroke="#BD995E" stroke-width="8" stroke-linecap="round"><path d="M135 208q-24-19-27 0t29 16"/><path d="M162 238q-19 18 3 27t24-17"/><path d="M418 209q22-18 32 4t-28 20"/></g>
+          </svg>
+          <span class="life-bottom">DE BOWL A ORGANIZADOR</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section section-space" id="informacion" aria-labelledby="info-title">
+      <div class="container info-layout">
+        <div class="info-head reveal"><span class="eyebrow">05 / DETALLES DEL PROYECTO</span><h2 id="info-title">Materiales y <em>decisiones conscientes.</em></h2><p>Un packaging responsable también debe ser claro respecto a sus limitaciones y su funcionamiento real.</p></div>
+        <div class="info-panels">
+          <article class="info-panel reveal"><span class="info-panel-n">01</span><h3>Estructura exterior</h3><p>Se propone cartón compacto para el bowl, cartón reforzado para el secundario y corrugado para la caja de transporte.</p></article>
+          <article class="info-panel reveal"><span class="info-panel-n">02</span><h3>Protección alimentaria</h3><p>El producto necesita una bolsa interior apta para alimentos y con barrera de conservación; la tapa del bowl no es un cierre hermético.</p></article>
+          <article class="info-panel reveal"><span class="info-panel-n">03</span><h3>Separación de materiales</h3><p>La bolsa debe poder retirarse antes de reutilizar el recipiente o gestionar sus componentes según los sistemas locales de reciclaje.</p></article>
+        </div>
+      </div>
+      <div class="container faq-wrap reveal"><div class="faq-left"><span class="eyebrow">PREGUNTAS FRECUENTES</span><h3>Lo esencial,<br><em>sin complicaciones.</em></h3></div><div class="faq-list">
+        <details><summary>¿Para qué sirve el compartimiento central?<span class="faq-plus" aria-hidden="true"></span></summary><p>Para depositar las cáscaras mientras consumes los pistachos sin mezclarlas con la parte comestible.</p></details>
+        <details><summary>¿Se puede guardar el producto directamente en cartón?<span class="faq-plus" aria-hidden="true"></span></summary><p>El cartón convencional no es una barrera de conservación suficiente. El diseño contempla una bolsa interior alimentaria sellada y una superficie de consumo apta para contacto con alimentos.</p></details>
+        <details><summary>¿El envase está disponible para comprar?<span class="faq-plus" aria-hidden="true"></span></summary><p>No. PISTACHÉ es un proyecto académico de diseño tridimensional. Las imágenes muestran prototipos digitales y no una presentación comercial validada.</p></details>
+        <details><summary>¿Qué capacidad tiene cada bowl?<span class="faq-plus" aria-hidden="true"></span></summary><p>El contenido neto definitivo aún debe verificarse mediante una prueba de capacidad y pesaje del prototipo. La cantidad de una libra corresponde al producto comprado para la investigación, no a cada bowl.</p></details>
+      </div></div>
+    </section>
+
+    <section class="closing-banner" aria-labelledby="closing-title"><div class="container closing-inner"><div><span class="eyebrow eyebrow-gold">DISEÑO CON UNA SEGUNDA VIDA</span><h2 id="closing-title">Un pequeño detalle.<br><em>Una gran diferencia.</em></h2></div><a class="btn btn-gold" href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a href="#inicio" class="brand" aria-label="PISTACHÉ, volver al inicio"><img src="assets/isotipo.webp" width="59" height="46" alt=""><span class="brand-name">PISTACHÉ<span class="brand-dot">.</span></span></a><p>Disfruta. Separa. Reutiliza.<br>Diseño inspirado en la naturaleza del pistacho.</p></div><div class="footer-links"><h3>Explorar</h3><a href="#concepto">Concepto</a><a href="#funciona">Cómo funciona</a><a href="#empaques">Packaging</a><a href="#reutilizacion">Segunda vida</a></div><div class="footer-links"><h3>Proyecto</h3><a href="#informacion">Materiales</a><a href="#informacion">Preguntas frecuentes</a><a href="#empaques">Modelado 3D</a></div><div class="footer-seal"><img src="assets/isotipo.webp" width="145" height="113" alt="Símbolo de PISTACHÉ"></div></div><div class="container footer-bottom"><span>© <span id="year">2026</span> PISTACHÉ. Proyecto académico de Diseño Tridimensional.</span><span>La Paz, Bolivia · Concepto y prototipos</span></div></footer>
+
+  <dialog class="model-dialog" id="modelDialog" aria-labelledby="dialogTitle"><div class="dialog-shell"><button class="dialog-close" id="dialogClose" type="button" aria-label="Cerrar vista ampliada">✕</button><div class="dialog-image-wrap"><img id="dialogImage" alt="" src="assets/primario.webp" width="1250" height="865"></div><div class="dialog-description"><span class="eyebrow" id="dialogKicker">MODELO 3D</span><h2 id="dialogTitle">Packaging primario</h2><p id="dialogBody"></p><div class="dialog-controls"><button type="button" class="dialog-arrow" id="prevModel" aria-label="Ver el modelo anterior">←</button><span id="dialogCount">01 / 03</span><button type="button" class="dialog-arrow" id="nextModel" aria-label="Ver el siguiente modelo">→</button></div></div></div></dialog>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Volver arriba">↑</button>
+</body>
+</html>
